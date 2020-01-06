@@ -18,3 +18,10 @@ A Class for a Pokemon's Element Type (like electric, rock, dragon, steel, fire, 
 
 Has fields for defensive/offensive strengths and weaknesses.
 
+### Other important notes:
+
+Ann's Favorite Pokemon:
+
+![Shiny Ralts](https://media-cerulean.cursecdn.com/attachments/7/671/635230841669418229.png)
+
+(Shiny Ralts)
