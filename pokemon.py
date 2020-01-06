@@ -1,13 +1,4 @@
-class ElementalType:
-
-    # defaults to normal if no type is specified
-    def __init__(self, name="normal", attack_effective=[], attack_weakness=["rock", "steel", "ghost"], defense_ineffective=["ghost"],
-     defense_weakness=["fighting"]):
-        self.name = name
-        self.attack_effective = attack_effective
-        self.attack_weakness = attack_weakness
-        self.defense_ineffective = defense_ineffective
-        self.defense_weakness = defense_weakness
+from ElementalType import ElementalType
 
 class Pokemon:
 
@@ -25,7 +16,7 @@ class Pokemon:
 def main():
     electric = ElementalType(name="electric", attack_effective=["flying", "water"], attack_weakness=["dragon", "electric", "grass", "ground"], 
     defense_ineffective=["electric", "flying"], defense_weakness=["ground"])
-    
+
     pika = Pokemon(name="pikachu", personal_name="pwn man", elemental_type=ElementalType())
     print(pika)
 
