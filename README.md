@@ -10,7 +10,7 @@ ann and andrew create python code for pokemon
 
 Base class for a Pokemon. Can have a pokemon name, an owner given name and an ```ElementalType```.
 
-**NOTE:** If no ```ElementalType``` is provided the pokemon's ```ElementalType``` is defaulted to "normal". 
+**NOTE:** If no ```ElementalType``` is provided the pokemon's ```ElementalType``` is defaulted to "normal".
 
 ```ElementalType```
 
@@ -25,3 +25,9 @@ Ann's Favorite Pokemon:
 ![Shiny Ralts](https://media-cerulean.cursecdn.com/attachments/7/671/635230841669418229.png)
 
 (Shiny Ralts)
+
+Andrew's Favorite Pokemon:
+
+![Vulpix](https://cdn.bulbagarden.net/upload/thumb/6/60/037Vulpix.png/1200px-037Vulpix.png)
+
+(Vulpix)
