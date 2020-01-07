@@ -14,11 +14,19 @@ class Pokemon:
 
 
 def main():
+    #Instantiate an electric type
     electric = ElementalType(name="electric", attack_effective=["flying", "water"], attack_weakness=["dragon", "electric", "grass", "ground"],
     defense_ineffective=["electric", "flying"], defense_weakness=["ground"])
 
+    # Instantiate a fire type
+    fire = ElementalType(name="fire", attack_effective=["bug","grass"],
+    defense_ineffective=["fire, water"], defense_weakness=["ground", "water"])
+
     pika = Pokemon(name="pikachu", personal_name="pwn man", elemental_type=electric)
+    vulpix = Pokemon(name="vulpix", personal_name="ya boi", elemental_type=fire)
+
     print(pika)
+    print(vulpix)
 
 if __name__== "__main__":
     main()
